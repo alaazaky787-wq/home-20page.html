@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login back.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<title>اهلا بعودتك</title>
+</head>
+<body class="flex justify-center items-center h-screen ">
+ <div class="form-container">
+      <p class="title">اهلا بعودتك</p>
+      <form class="form">
+        <input type="email" class="input" placeholder="البريد الالكتروني">
+        <input type="password" class="input" placeholder="كلمة المرور">
+        <p class="page-link">
+          <a href="reset pass.html" class="page-link-label">هل نسيت كلمة المرور؟</a>
+        </p>
+        <button  onclick="window.location.href='login1.html'" class="form-btn">تسجيل الدخول</button>
+      </form>
+      <p class="sign-up-label">
+        ليس لديك حساب؟<span class="sign-up-link ">انشاء حساب</span>
+      </p>
+      <div class="buttons-container">
+        <div class="apple-login-button">
+              <i class="fa fab fab fa-apple"></i>
+
+          <span>تسجيل الدخول باستخدام apple</span>
+        </div>
+        <div class="google-login-button">
+      <i class="fa fab fa-google"></i>
+          <span>تسجيل الدخول باستخدام Google</span>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

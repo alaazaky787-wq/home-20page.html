@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+    <title>كلمة المرور الجديده</title>
+</head>
+<body class="flex items-center justify-center min-h-screen  bg-[url('background.jpg')] bg-cover">
+
+  <div class="w-[400px] p-8 rounded-2xl bg-white/20 backdrop-blur-lg shadow-2xl">
+    <!-- العنوان -->
+    <h2 class="text-2xl font-bold text-center mb-6">إعادة تعيين كلمة المرور</h2>
+
+    <!-- الفورم -->
+    <form action="succes.html" method="get" class="space-y-5">
+      <div>
+        <label class="block mb-2 font-medium">كلمة المرور الجديدة</label>
+        <input type="password" placeholder="••••••••" 
+               class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required>
+      </div>
+
+      <div>
+        <label class="block mb-2 font-medium">تأكيد كلمة المرور</label>
+        <input type="password" required placeholder="••••••••" 
+               class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required>
+      <p id="error" class="hidden text-red-500 text-xs mt-2 font-medium"> خطا! كلمة المرور غير متطابقه</p>
+              </div>
+
+      <button type="submit" 
+              class="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition font-semibold">
+        حفظ كلمة المرور
+      </button>
+    </form>
+  </div>
+
+
+  
+    
+</body>
+</html>
